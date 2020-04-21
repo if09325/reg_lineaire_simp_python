@@ -29,5 +29,9 @@ plt.scatter(X_RD_Spend,Y_Profit)
 #plt.scatter(X_Administration_Spend, Y_Profit)
 #plt.scatter(X_MarketingSpend, Y_Profit)
 plt.show()
-                     
+                 
+print("R² :--------->  ", r_value)
+print("p-value :---->  ", p_value) 
+print("std_err :---->  ", std_err)                   
+                    
 
